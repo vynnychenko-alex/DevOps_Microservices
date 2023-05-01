@@ -18,4 +18,3 @@ EXPOSE 80
 
 ## Step 5:
 CMD ["python", "app.py"]
-
