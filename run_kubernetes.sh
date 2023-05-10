@@ -19,4 +19,6 @@ kubectl get pods --all-namespaces
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward aiapp-minikube 80:80
+podname=$(kubectl get pods --no-headers -o custom-columns=":metadata.name")
+kubectl port-forward $podname 80:80
+kubectl logs $podname
