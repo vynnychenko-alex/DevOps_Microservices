@@ -11,8 +11,8 @@ dockerpath=dimension90/aiapp
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 docker login
-docker tag aiapp:1.0 $dockerpath:1.0
+docker tag aiapp:latest $dockerpath:latest
 
 # Step 3:
 # Push image to a docker repository
-docker push $dockerpath:1.0
+docker push $dockerpath:latest
