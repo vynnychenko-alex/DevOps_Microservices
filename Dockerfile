@@ -14,7 +14,7 @@ RUN python -m pip install --upgrade --no-cache-dir pip
 RUN pip install -r requirements.txt
 
 ## Step 4:
-EXPOSE 80
+EXPOSE 8000
 
 ## Step 5:
 CMD ["python", "app.py"]
