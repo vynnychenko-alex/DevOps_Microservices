@@ -9,4 +9,4 @@ docker build --tag=aiapp .
 docker image ls
 
 # Step 3: 
-docker run -p 80:8000 aiapp
+docker run -p 80:80 aiapp
