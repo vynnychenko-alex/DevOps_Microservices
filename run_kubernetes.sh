@@ -19,5 +19,5 @@ kubectl get pods --all-namespaces
 
 # Step 4:
 # Forward the container port to a host
-podname=$(kubectl get pods --no-headers -o custom-columns=":metadata.name")
-kubectl port-forward $podname 8000:80
+# podname=$(kubectl get pods --no-headers -o custom-columns=":metadata.name")
+# kubectl port-forward $podname 8000:80
