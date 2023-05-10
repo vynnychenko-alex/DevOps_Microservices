@@ -1,10 +1,10 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/vynnychenko-alex/DevOps_Microservices/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/vynnychenko-alex/DevOps_Microservices/tree/master)
 
-## Project Overview
+## Repository Overview
 
-In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
+This repository provides code to encapsulate a Python-based machine learning application into a container. The application utilizes a pre-trained sklearn model, specifically designed to predict housing prices in Boston based on various features like average rooms, highway access, and teacher-to-pupil ratios. Additional details about the dataset used can be found on the data source site, which originally obtained the data from Kaggle.
 
-You are given a pre-trained, `sklearn` model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. You can read more about the data, which was initially taken from Kaggle, on [the data source site](https://www.kaggle.com/c/boston-housing). This project tests your ability to operationalize a Python flask app—in a provided file, `app.py`—that serves out predictions (inference) about housing prices through API calls. This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
+`app.py`— serves out predictions (inference) about housing prices through API calls. This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
 
 ### Project Tasks
 
