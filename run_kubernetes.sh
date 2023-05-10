@@ -19,5 +19,4 @@ kubectl get pods --all-namespaces
 
 # Step 4:
 # Forward the container port to a host
-kubectl expose deployment aiapp-minikube --type=NodePort --port=80
-
+kubectl port-forward aiapp-minikube 80:80
